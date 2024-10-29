@@ -1,0 +1,541 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+}
+
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+
+
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: green;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50%;
+    opacity: 40%;
+    
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 22px;
+    line-height: 50px;  
+}
+
+.gotopbtn:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+/*picture style*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+/*nav bar */
+nav
+{
+    width: 100%;
+    background: green; 
+    font-family:sans-serif;
+}
+
+ul
+{
+    width: 69.5%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+ul li a
+{
+    color: #fff;
+    font-family:inherit;
+    text-decoration: none;    
+}
+
+ul li a:hover
+{
+    color: #0efa17;
+    text-decoration: none;    
+}
+
+.toggle
+{
+    width: 100%;
+    padding: 10px 20px;
+    background: #000000;
+    text-align: right;
+    box-sizing: border-box;
+    color: #0efa17;
+    font-size: 25px;
+    display: none;
+}
+
+@media (max-width:1150px)
+{
+    .toggle
+    {
+        display: block;
+    }
+    
+    ul
+    {
+        width: 100%;
+        display: none;
+    }
+
+
+    ul li
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .active
+    {
+        display: block;
+    }
+}
+
+/*Center Image "my logo"*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#about
+{
+    padding-top: 5px;
+    padding-bottom:10px ;
+   
+}
+#about h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 10px;
+}
+#about h2::after
+{
+    content: '';
+    background: #eaf2ea!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+
+#sss
+{
+    padding-top: 5px;
+    padding-bottom:10px ;
+   
+}
+#sss h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 10px;
+}
+#sss h2::after
+{
+    content: '';
+    background: #eaf2ea!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+#news
+{
+    padding-top: 5px;
+    padding-bottom:10px ;
+   
+}
+#news h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 10px;
+}
+#news h2::after
+{
+    content: '';
+    background: #f9fcf9!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+#video
+{
+    padding-top: 5px;
+    padding-bottom:10px ;
+  
+}
+#video h2
+{
+    text-align: center;
+    color: #0bf814!important;
+    padding-bottom: 10px;
+}
+#video h2::after
+{
+    content: '';
+    background: #ebf2eb!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+#GD
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+  
+}
+#GD h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 10px;
+}
+#GD h2::after
+{
+    content: '';
+    background: #f2faf2!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+#WMD
+{
+    padding-top: 5px;
+    padding-bottom: 10px ;
+    
+}
+#WMD h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 10px;
+}
+#WMD h2::after
+{
+    content: '';
+    background: #ffffff!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+
+#print
+{
+    padding-top: 5px;
+    padding-bottom:10px ;
+   
+}
+#print h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 10px;
+}
+#print h2::after
+{
+    content: '';
+    background: #ffffff!important;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+/*--contact-*/
+#contact
+{
+    padding-top: 5px;
+    padding-bottom: 10px ;
+    background : #000000;
+}
+#contact h2
+{
+    text-align: center;
+    color: #0efa17!important;
+    padding-bottom: 5px;
+}
+#contact h2::after
+{
+    content: '';
+    background: #f7f8ef!important;
+    display: block;
+    height: 3px;
+    width: 190px;
+    margin: 20px auto 10px;
+}
+
+/*Footer*/
+/*responsive footer to any device*/
+.footer, .footer *, .footer ::before, .footer ::after {
+    box-sizing: border-box;
+}
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 12px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 100px;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+/* Footer left */
+.footer-distributed .footer-left{
+	width: 32%;
+}
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+.footer-distributed .footer-left img{
+	width: 40%;
+}
+.footer-distributed .footer-left p a{
+	color:  #21c921;
+	text-decoration: none;;
+}
+.footer-distributed h3 span{
+	color:  #0aea0a;
+}
+/* Footer links */
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center{
+	width: 40%;
+} 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 40px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #21c921;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 25%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 20px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	background-color:  #000000;
+	border-radius: 2px;
+ 
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing:content-box;
+  resize: vertical;
+}
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+
+

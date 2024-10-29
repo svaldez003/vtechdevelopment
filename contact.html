@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Santiago J.Valdez">
+<title>VTech Development </title>
+<link rel="icon" type="image/ico" href="img/v.fw.png" />
+<!--Adding CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css.map">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css.map">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map">   
+      
+<link rel = "stylesheet" type= "text/css" href= "style.css">
+
+    
+    <link rel = "stylesheet" type= "text/css" href= "styleContact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+      
+</head>
+
+    <body style="background: #000000">
+   <section>
+   
+    <section id="navbar-nav">
+    <nav>
+        <div class="toggle">
+            <div class="menu"><i class="fa fa-bars" style="font-size:20px;color:white;"></i>
+            </div></div>
+         <ul>
+         
+              <li> <a class= "active" href="index.html">Home</a></li>
+               <li> <a class= "active" href="about.html">About Us</a></li>
+              <li><a href="videoEditing.html">Video Editing</a></li> 
+              <li><a href="graphicDesign.html">Graphic Design</a></li> 
+              <li><a href="printing.html">Printing Services</a></li>
+              <li><a href="web.html">Web Development</a></li>
+              <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </section>
+             
+
+<a class="gotopbtn" href="#"><i class= "fas fa-arrow-up"></i></a>
+</section>
+     <!--Nav fxn-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script type = "text/javascript">
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                $('ul').toggleClass('active');
+                })
+            })
+    </script>
+        
+<br><br>
+
+<section id="contact"><h2>CONTACT US</h2></section>
+        
+<div class="container">
+ 
+<form action="https://formsubmit.co/vtechdevelopment2020@gmail.com" method="post">
+
+<div class="form-group">
+    <label for="fname" style="color:white;">Name</label>
+<input type="text" id="name" name="name" class="input" placeholder="Your name.." required>
+    </div>
+          
+<div class="form-group">    
+<label for="email" style="color:white;">Email</label>
+<input type="text" id="email" name="email" class="input" placeholder="Your email.." required>   
+</div>
+    
+<input type="hidden" name=_next value="http://vtechdevelopment.epizy.com/thankyou.html">
+    
+    
+<div class="form-group">
+<label for="subject" style="color:white;">Message</label>
+<textarea id="message" name="message" class="input" rows="4" placeholder="Tell us how we can help..." style="height:200px" required></textarea>
+</div>
+    
+<input style="color:white;" type="submit" value="Submit">
+
+<input type="hidden" name="_captcha" value="false">
+  </form>
+
+    
+</div>
+        
+<br><br>
+<br><br>
+        
+    
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/pictureSlide.js"></script>  
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquerry/jquery-3.3.1.min.js"></script>
+    <script>src="https://smtpjs.com/v3/smtp.js"</script>
+
+<script>
+
+function sendEmail(){
+
+Email.send({
+    Host : "smtp.gmail.com",
+    Username : "vtechdevelopment2020@gmail.com",
+    Password : "vtechdevelopment.se101019Edien0920.cpp",
+    To : 'vtechdevelopment2020@gmail.com',
+    From : document.getElementById("email").value
+    Subject : "This is the subject",
+    Body : "Name" + document.getElementById("name").value
+            + <br> Email + document.getElementById("email").value
+            + <br> Message + document.getElementById("message").value
+}).then(
+  message => alert("Message Sent")
+
+}
+
+
+</script>
+
+ 
+</body>
+
+</html>
